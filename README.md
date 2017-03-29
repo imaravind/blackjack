@@ -2,28 +2,28 @@
 A simple blackjack program in python.
 
 So, we are going to use the below classes
-class Hand
- Attributes:
+- class Hand
+  - Attributes:
     - Cards
- Methods:
+  - Methods:
     - handValue
     - isBlackJack
     
-class Player
- Attributes:
+- class Player
+  - Attributes:
     - Player Name
     - Player Balance
     - Table Number
     - Hand
- Methods:
+  - Methods:
     - addtoHand
     - addBalance
     - playTable - Assign this player to table # passed as argument
     - bet - Determine whether to bet and if so, for what amount?
     - hit - Determine whether to hit or stand?
 
-class Blackjacktable
- Attributes:
+- class Blackjacktable
+  - Attributes:
     - Deck
     - Table number
     - Pot
@@ -31,7 +31,7 @@ class Blackjacktable
     - Min Bet
     - Player(s)
     - Hand
- Methods:
+  - Methods:
     - addBalance
     - shuffle
     - deal - play the game
