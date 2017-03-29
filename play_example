@@ -1,0 +1,65 @@
+tab1=BlackjackTable(1)
+player=Player('Aravind', table=tab1)
+player.addBalance(10000)
+
+tab1.deal()
+
+Hey Aravind, do you want to play [Y/N]? y
+How much do you want to bet (Balance: $10000.0? 1000
+Card A dealt to player Aravind
+Dealer has Card Q
+Card K dealt to player Aravind
+Aravind's hand: ['A', 'K']		Dealer's hand: ['Q']
+Hey Aravind, Looks like you got a BlackJack!!
+You won $1500.0
+Hey Aravind, do you want to play [Y/N]? y
+How much do you want to bet (Balance: $11500.0? 100
+Card 5 dealt to player Aravind
+Dealer has Card 10
+Card 10 dealt to player Aravind
+Aravind's hand: ['5', '10']		Dealer's hand: ['10']
+Hit or Stand [H/S] ? h
+Card 7 dealt to player Aravind
+Aravind's hand: ['5', '10', '7']		Dealer's hand: ['10']
+Hey Aravind, Looks like you got busted
+Hey Aravind, do you want to play [Y/N]? y
+How much do you want to bet (Balance: $11400.0? 100
+Card A dealt to player Aravind
+Dealer has Card 8
+Card 4 dealt to player Aravind
+Aravind's hand: ['A', '4']		Dealer's hand: ['8']
+Hit or Stand [H/S] ? h
+Card J dealt to player Aravind
+Aravind's hand: ['A', '4', 'J']		Dealer's hand: ['8']
+Player Aravind: Hand value: 15
+Aravind's hand: ['A', '4', 'J']		Dealer's hand: ['8', '4']
+Hit or Stand [H/S] ? s
+Aravind's hand: ['A', '4', 'J']		Dealer's hand: ['8', '4', 'Q']
+Hey Aravind, You won $100.0
+Hey Aravind, do you want to play [Y/N]? y
+How much do you want to bet (Balance: $11500.0? 500
+Card 5 dealt to player Aravind
+Dealer has Card 6
+Card K dealt to player Aravind
+Aravind's hand: ['5', 'K']		Dealer's hand: ['6']
+Hit or Stand [H/S] ? s
+Aravind's hand: ['5', 'K']		Dealer's hand: ['6', '2']
+Aravind's hand: ['5', 'K']		Dealer's hand: ['6', '2', '3']
+Aravind's hand: ['5', 'K']		Dealer's hand: ['6', '2', '3', '4']
+Aravind's hand: ['5', 'K']		Dealer's hand: ['6', '2', '3', '4', 'J']
+Hey Aravind, You won $500.0
+Hey Aravind, do you want to play [Y/N]? y
+How much do you want to bet (Balance: $12000.0? 100
+Card 2 dealt to player Aravind
+Dealer has Card 10
+Card 8 dealt to player Aravind
+Aravind's hand: ['2', '8']		Dealer's hand: ['10']
+Hit or Stand [H/S] ? h
+Reshuffling...
+Card K dealt to player Aravind
+Aravind's hand: ['2', '8', 'K']		Dealer's hand: ['10']
+Player Aravind: Hand value: 20
+Aravind's hand: ['2', '8', 'K']		Dealer's hand: ['10', '3']
+Hit or Stand [H/S] ? s
+Aravind's hand: ['2', '8', 'K']		Dealer's hand: ['10', '3', '7']
+Hey Aravind, this game tied. You did not win anything.
